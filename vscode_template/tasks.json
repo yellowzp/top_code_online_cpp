@@ -3,7 +3,7 @@
         {
             "type": "shell",
             "label": "g++.exe build active file",//任务的名字，就是刚才在命令面板中选择的时候所看到的，可以自己设置
-            "command": "D:/softs/mingw64/bin/g++.exe",
+            "command": "D:/softs/mingw-w64/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/g++.exe",
             "args": [//编译时候的参数
                 "-g",//添加gdb调试选项
                 "${file}",
@@ -11,7 +11,7 @@
                 "${fileDirname}\\${fileBasenameNoExtension}.exe"
             ],
             "options": {
-                "cwd": "D:/softs/mingw64/bin"
+                "cwd": "D:/softs/mingw-w64/x86_64-8.1.0-release-win32-seh-rt_v6-rev0/mingw64/bin/"
             },
             "problemMatcher": [
                 "$gcc"
